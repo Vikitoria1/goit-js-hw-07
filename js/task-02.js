@@ -40,10 +40,7 @@ imgElement.classList.add("gallery-img");
 imgElement.src = image.url;
 imgElement.alt = image.alt;
 imgElement.style.width = "360px";
-imgElement.style.height = "300px";
-
 
 newList.append(imgElement);
 galleryContainer.append(newList);
 });
-
