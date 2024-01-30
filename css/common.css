@@ -18,13 +18,19 @@ body {
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
-  gap: 24px; 
-  margin: 0;
+  margin: 100px 156px;
+  gap: 24px;
   padding: 0;
 }
 
 .gallery-item {
-  text-align: center;
   margin-bottom: 48px;
+  
 }
 
+.gallery-img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+  
+}

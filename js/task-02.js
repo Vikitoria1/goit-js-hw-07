@@ -39,8 +39,8 @@ const imgElement = document.createElement("img");
 imgElement.classList.add("gallery-img");
 imgElement.src = image.url;
 imgElement.alt = image.alt;
-imgElement.style.width = "360px";
 
 newList.append(imgElement);
 galleryContainer.append(newList);
 });
+
